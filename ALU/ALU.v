@@ -90,5 +90,4 @@ module ALU( input [31:0] a,
 			FA_dataflow a3(Carryout,muxin[2],a,bout,Carryin);
 			bit32_4to1mux res(muxin[0],muxin[1],muxin[2],zero,Op,Result);
 endmodule
-			
-			
+			/// crazy 
